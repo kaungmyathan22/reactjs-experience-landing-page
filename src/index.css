@@ -8,3 +8,9 @@
     @apply border py-2 px-3 rounded-full
   }
 }
+
+@layer utilities {
+  .container {
+    @apply max-w-7xl mx-auto lg:px-0 px-5
+  }
+}
